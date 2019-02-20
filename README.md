@@ -8,7 +8,7 @@ The repository includes implementations for carrying Graph Classification on ben
 - **Graph Kernels**
 
 ### Graph Neural Networks
-Basic framework for carrying graph classification with Neural Networks was the [graph_nets](https://github.com/deepmind/graph_nets) library developed by DeepMind as described in the corresponding paper [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261).
+Basic framework for carrying graph classification with Neural Networks was the [graph_nets](https://github.com/deepmind/graph_nets) library developed by DeepMind as described in the corresponding paper by Battaglia et al.(2018) [**"Relational inductive biases, deep learning, and graph networks"**](https://arxiv.org/abs/1806.01261).
 
 ### Graph Kernel Libraries
 Basic tool for the graph kernel implementations was the [GraKeL](https://github.com/ysig/GraKeL/) library by [Siglidis et al. (2018)](https://arxiv.org/abs/1806.02193) and [Scikit Learn](https://scikit-learn.org/stable/). 
