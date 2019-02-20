@@ -20,9 +20,9 @@ Setting Up
 =================
 
 ### Conda Environments
-Each implementation was done within its own conda environment specified by the yaml file that accompanies each notebook:
-- Graph Neural Networks: graph_networks_env.yml
-- Graph kernels: graph_kernels.yml
+Each implementation was done within its own conda environment specified by the yaml file that accompanies each notebook, that is:
+  - graph_networks_env.yml
+  - graph_kernels.yml
 
 The environments can be deployed by using some basic [conda functionality](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
 
