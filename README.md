@@ -3,14 +3,15 @@ Graph Classification using Neural Networks
 This repository is part of the thesis project **"Graph Classification using Neural Networks"** carried by me (Nousias Ch.) in the Aristotle University of Thessaloniki (A.U.Th.) in the interdepartmental postgraduate programme of studies "Advanced Computer and Communication Systems" under the supervision of Emeritus Professor Vasileios Petridhs. The thesis project is to be presented in February 2019.
 
 The repository includes implementations for carrying Graph Classification on benchmark datasets from the field of bioinformatics with:
-- **Graph Kernels**
+
 - **Neural Networks on Graphs**
+- **Graph Kernels**
+
+### Graph Neural Networks
+Basic framework for carrying graph classification with Neural Networks was the [graph_nets](https://github.com/deepmind/graph_nets) library developed by DeepMind as described in the corresponding paper [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261).
 
 ### Graph Kernel Libraries
 Basic tool for the graph kernel implementations was the [GraKeL](https://github.com/ysig/GraKeL/) library by [Siglidis et al. (2018)](https://arxiv.org/abs/1806.02193) and [Scikit Learn](https://scikit-learn.org/stable/). 
-
-### Graph Neural Networks
-As basic framework for carrying graph classification with Neural Networks was the [graph_nets](https://github.com/deepmind/graph_nets) library developed by DeepMind as described in the corresponding paper [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261).
 
 Datasets were cloned by the Pytorch implementation of the **"Deep Graph Convolutional Neural Network (DGCNN)"**, work of [Zhang et al. (2018)](https://github.com/muhanzhang/dgcnn). These versions of graph datasets were preferred over those included in the [TU Dortmund repository](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets) as were deemed more consistent to each other without the need for repeating basic steps of importing and preprocessing for every dataset.
 
